@@ -21,6 +21,9 @@ The Fast Exponentiation program implements an efficient algorithm for performing
 This project was developed as part of the CSC 592 - Introduction to Cryptography course at the University of North Carolina Wilmington (UNCW). The program demonstrates the fast exponentiation algorithm, an efficient method for computing large exponentiations modulo a given number.
 
 
+---
+
+
 
 
 ## Getting Started
