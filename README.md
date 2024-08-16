@@ -4,6 +4,7 @@
 The Fast Exponentiation program implements an efficient algorithm for performing modular exponentiation, a fundamental operation in many cryptographic algorithms. This technique leverages the binary representation of the exponent to significantly reduce the number of computations, making it especially useful for cryptographic applications where large numbers are involved.
 
 
+---
 
 ## Table of Contents
 - [About](#about)
@@ -27,7 +28,7 @@ This project was developed as part of the CSC 592 - Introduction to Cryptography
 - Python 3.x
 
 ### Installation
-No installation is required; simply download or clone the repository and run the `fast_exponentiation.py` script.
+Download or clone the repository and run the `fast_exponentiation.py` script.
 
 ### Files
 - `fast_exponentiation.py`: Contains the implementation of the fast exponentiation algorithm.
