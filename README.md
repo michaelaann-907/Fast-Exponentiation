@@ -1,48 +1,29 @@
 # Fast Exponentiation
-
 The Fast Exponentiation program implements an efficient algorithm for performing modular exponentiation, a fundamental operation in many cryptographic algorithms. This technique leverages the binary representation of the exponent to significantly reduce the number of computations, making it especially useful for cryptographic applications where large numbers are involved.
 
----
+## Features
+- **Efficient Computation:** Uses the binary representation of the exponent to reduce the number of operations.
+- **Modular Arithmetic:** Computes `(x^e) % n` for large numbers efficiently.
+- **Cryptographic Applications:** Useful for cryptographic algorithms requiring modular exponentiation.
 
-## Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Files](#files)
-- [Usage](#usage)
+## Requirements
+- **Python 3.x**: Ensure you have Python 3.x installed.
 
----
 
-## About
+## Installation & Usage
+1. Clone the repository or download the source code.
 
-This project was developed as part of the CSC 592 - Introduction to Cryptography course at the University of North Carolina Wilmington (UNCW). The program demonstrates the fast exponentiation algorithm, an efficient method for computing large exponentiations modulo a given number.
+2. Run the program using Python:
+   ```bash
+   python fast_exponentiation.py
+   ```
+3. Output Information:
+    - The program calculates the result of `(x^e) % n`.
+    - Displays the result based on the input parameters.
 
----
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-
-### Installation
-
-Download or clone the repository and run the `fast_exponentiation.py` script.
-
-### Files
-
-- `fast_exponentiation.py`: Contains the implementation of the fast exponentiation algorithm.
-
----
-
-## Usage
-
-The `expMod` function takes three parameters: the base `x`, the exponent `e`, and the modulus `n`. It returns the result of `(x^e) % n`.
 
 ### Example Usage
-
 Here is an example of how to use the `expMod` function:
 
 ```python
@@ -51,3 +32,21 @@ from fast_exponentiation import expMod
 # Example: Calculate (20^30) % 24
 result = expMod(20, 30, 24)
 print(f"The result of (20^30) % 24 is: {result}")
+```
+
+## Example Output
+Below are examples of the output with different inputs.
+
+### Example 1
+```plaintext
+The result of (20^30) % 24 is: 16
+```
+![fast_exp1](https://github.com/user-attachments/assets/b4577f97-3e41-407f-b3cd-f5aa00752979)
+
+
+### Example 2
+```plaintext
+The result of (5^13) % 9 is: 5
+```
+![fast_exp2](https://github.com/user-attachments/assets/be87d3c3-2165-4cbc-b211-41a5962c5664)
+
