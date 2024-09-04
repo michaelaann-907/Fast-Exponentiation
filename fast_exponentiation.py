@@ -16,9 +16,10 @@ def expMod(x, e, n):
     return y
 
 if __name__ == '__main__':
-   #x = (int(input("please enter value for x : ")))
-   #e = (int(input("please enter value for e : ")))
-   #n = (int(input("please enter value for n : ")))
-   #print(" x is : ", x, "\n","e is : ", e, "\n","n is : ",n, "\n", "The result is : ", expMod(x,e,n))
-   print(expMod(20,30,24))
+    print("\n")
+    x = (int(input("please enter value for x : ")))
+    e = (int(input("please enter value for e : ")))
+    n = (int(input("please enter value for n : ")))
+    print(" x is : ", x, "\n","e is : ", e, "\n","n is : ",n, "\n", "The result is : ", expMod(x,e,n))
+    #print(expMod(20,30,24))
 
